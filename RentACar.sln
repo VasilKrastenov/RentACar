@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "RentACar\API.csproj", "{23A1B3B4-6608-468D-9AC5-3196AD56E67F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{D8EC782E-0AC3-43FF-AFA9-4542D8FAC380}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23A1B3B4-6608-468D-9AC5-3196AD56E67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A1B3B4-6608-468D-9AC5-3196AD56E67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A1B3B4-6608-468D-9AC5-3196AD56E67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A1B3B4-6608-468D-9AC5-3196AD56E67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EC782E-0AC3-43FF-AFA9-4542D8FAC380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EC782E-0AC3-43FF-AFA9-4542D8FAC380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EC782E-0AC3-43FF-AFA9-4542D8FAC380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EC782E-0AC3-43FF-AFA9-4542D8FAC380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC1B2839-6DF5-4852-8036-19CDE4C43C17}
+	EndGlobalSection
+EndGlobal
