@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Data.Entities;
 
 namespace Data.Initializers
 {
-    class Seeder
+    public static class Seeder
     {
+        public static void Seed(OvmDbContext context)
+        {
+            context.SaveChanges();
+        }
     }
 }
