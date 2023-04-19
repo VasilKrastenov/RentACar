@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace Data.Entities
 {
-    class Car : BaseEntity
+    public class Car : BaseEntity
     {
-        public Car()
-        {
-
-        }
-
-        public Manufacturer Manufacturer { get; set; }
+        public string Manufacturer { get; set; }
 
         public string Model { get; set; }
 

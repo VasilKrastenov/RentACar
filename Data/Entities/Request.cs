@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Data.Entities
 {
-    class Request : BaseEntity
+    public class Request : BaseEntity
     {
         public Car Car { get; set; }
 
