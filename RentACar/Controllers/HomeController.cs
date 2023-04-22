@@ -10,8 +10,20 @@ namespace RentACar.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "ICT Car Rental - Home";
 
+            return View();
+        }
+
+        public ActionResult Contacts()
+        {
+            ViewBag.Title = "ICT Car Rental - Contacts";
+
+            return View();
+        }
+
+        public ActionResult Cars()
+        {
             return View();
         }
     }

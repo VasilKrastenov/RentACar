@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/Views/Shared/_UserEntryLayout.cshtml";
+}
+<div class="jumbotron">
+    <h2>Login</h2>
+    <form>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Username">
+        </div>
+        <div class="form-group">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+    <hr />
+    <p style="font-size: medium">New around here? <a href="~/UserEntry/Registration">Sign up</a></p>
+    <p style="font-size: medium"><a href="~/UserEntry/ForgottenPassword">Forgotten password?</a></p>
+</div>
+
+

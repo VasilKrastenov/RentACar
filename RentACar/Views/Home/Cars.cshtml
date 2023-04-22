@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "ICT Car Rental";
+    Layout = "~/Views/Shared/_GuestLayout.cshtml";
+}
+
+<div class="jumbotron">
+    <!--Fix this to sort by dates available-->
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline">
+            <content>From: </content>
+            <input type="date" class="form-control" aria-label="StartDate" style="margin: 0 5px 0 0">
+            <content>To: </content>
+            <input type="date" class="form-control" aria-label="EndDate" style="margin: 0 7px 0 0">
+
+            <button class="btn btn-primary" type="submit">Apply filters</button>
+        </form>
+    </nav>
+    <hr />
+    <h2 class="modal-title">Available cars</h2>
+    <p />
+    <div class="container">
+        <!--Add an element for each car in the database-->
+
+        <div class="row">
+            <div class="col-sm">
+                <div style="max-width: 18rem;">
+                    <h4>Car model</h4>
+                    <p style="font-size: medium">About the vehicle</p>
+                    <p class="text-muted" style="font-size: small">Availability</p>
+                    <!-- Button trigger modal -->
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#carModal">Check it out</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="carModal" tabindex="-1" role="dialog" aria-labelledby="carModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="carModalLabel">Car model</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    More about the vehicle
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Rent</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm"></div>
+            <div class="col-sm"></div>
+        </div>
+
+
+    </div>
+</div>
+
