@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Add Car";
+    Layout = "~/Views/Shared/_GuestLayout.cshtml";
+}
+
+<div class="jumbotron">
+    <h2>Add car for rent</h2>
+    <p/>
+    <form>
+        <div class="form-group">
+            <label for="manufacturer">Manufacturer</label>
+            <input type="text" class="form-control" id="manufacturer" placeholder="Manufacturer" />
+        </div>
+        <div class="form-group">
+            <label for="model">Model</label>
+            <input type="text" class="form-control" id="model" placeholder="Model" />
+        </div>
+        <div class="form-group">
+            <label for="modelYear">Model Year</label>
+            <input type="date" class="form-control" id="modelYear" placeholder="Model year" />
+        </div>
+        <div class="form-group">
+            <label for="passengerSeats">Passenger seats</label>
+            <input type="number" class="form-control" id="passengerSeats" />
+        </div>
+        <div class="form-group">
+            <label for="about">About</label>
+            <input type="text" class="form-control" id="about" placeholder="Short desctiption of the vehicle" />
+        </div>
+        <div class="form-group">
+            <label for="rentPerDay">Rent per Day</label>
+            <div class="input-group mb-3">
+                <div class="input-group-addon">
+                    <span class="input-group-text">BGN</span>
+                </div>
+                <input type="number" class="form-control" id="rentPerDay" aria-describedby="rentPerDay">
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add car for rent</button>
+    </form>
+</div>
+
