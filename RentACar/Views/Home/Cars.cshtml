@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "ICT Car Rental";
+    Layout = "~/Views/Shared/_GuestLayout.cshtml";
+}
+
+<div class="jumbotron">
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li class="input-group date" data-provide="datepicker">
+                <input type="text" class="form-control">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <h2>Available cars</h2>
+    <p />
+    <div class="container">
+        <!--Add an element for each car in the database-->
+
+        <div class="row">
+            <div class="col-sm">
+                <div style="max-width: 18rem;">
+                    <h4>Car model</h4>
+                    <p style="font-size: medium">About the vehicle</p>
+                    <p class="text-muted" style="font-size: small">Availability</p>
+                    <a href="#" class="btn btn-primary">Check it out</a>
+                </div>
+            </div>
+            <div class="col-sm"></div>
+            <div class="col-sm"></div>
+        </div>
+        
+
+    </div>
+</div>
+
