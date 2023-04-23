@@ -1,5 +1,5 @@
-﻿using Data.Entities;
-using Data.Initializers;
+﻿using RentACar.Data.Initializers;
+using RentACar.Models;
 using System.Data.Entity;
 
 namespace Data

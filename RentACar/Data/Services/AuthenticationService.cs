@@ -1,5 +1,5 @@
-﻿using Data.Entities;
-using Data.Repository;
+﻿using RentACar.Data.Repository;
+using RentACar.Models;
 
 namespace Data.Services
 {

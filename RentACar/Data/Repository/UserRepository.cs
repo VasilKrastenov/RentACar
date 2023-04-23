@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Data;
+using RentACar.Models;
+using System;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
-using Data.Entities;
 
-namespace Data.Repository
+namespace RentACar.Data.Repository
 {
     public class UserRepository
     {
