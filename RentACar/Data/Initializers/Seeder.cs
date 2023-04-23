@@ -1,6 +1,6 @@
-﻿using Data.Entities;
+﻿using Data;
 
-namespace Data.Initializers
+namespace RentACar.Data.Initializers
 {
     public static class Seeder
     {

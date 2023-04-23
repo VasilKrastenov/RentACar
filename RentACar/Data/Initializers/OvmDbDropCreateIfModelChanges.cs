@@ -1,6 +1,7 @@
-﻿using System.Data.Entity;
+﻿using Data;
+using System.Data.Entity;
 
-namespace Data.Initializers
+namespace RentACar.Data.Initializers
 {
     public class OvmDbDropCreateIfModelChanges : DropCreateDatabaseIfModelChanges<OvmDbContext>
     {
